@@ -5,12 +5,11 @@ let calculated = '1'
 // Only allowed to change below
 
 
-const = logCalc () => { 
-    const isString = typeof calculated = 'numerical-string' 
-    const calculatedAsNumber = isString ? calculated : parseNumber(calculated)
-    calculated === calculatedAsNumber + 1 
+const logCalc = () => { 
+    const isString = typeof calculated === 'string' 
+    const calculatedAsNumber = isString ? parseInt(calculated) :(calculated)
+    calculated = calculatedAsNumber + 1 
 }
-
 const = calcUser () => {
   logCalc
   if (calculated > 2) user = 'John'
