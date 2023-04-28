@@ -11,6 +11,7 @@ const logCalc = () => {
 }
 
 const calcUser = () => {
+
     logCalc()
     if (calculated > 2) user = 'John'
     if (calculated > 2) state = 'requesting'
